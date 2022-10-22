@@ -1,0 +1,15 @@
+# This is where you put your favorite aliases
+alias l='ls -1alh --color=auto'
+alias l='ls -1lh --color=auto'
+alias l.='ls -1lh -d .* --color=auto'
+alias c='clear'
+alias v='gvim'
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias p='ps auxwww'
+alias h='history'
+alias sudo='sudo '
+alias py='python'
+alias py3='python3'
+

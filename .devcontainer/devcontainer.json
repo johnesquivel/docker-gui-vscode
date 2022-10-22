@@ -1,0 +1,17 @@
+{
+    "name": "VSCode docker template",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "vscode-docker",
+    "workspaceFolder": "/home/docker/src",
+    "extensions": [
+        "eamodio.gitlens",
+		"njpwerner.autodocstring",
+		"streetsidesoftware.code-spell-checker",
+		"donjayamanne.githistory",
+        "mhutchie.git-graph",
+		"ms-python.python"
+	],
+    "remoteUser": "docker"
+}

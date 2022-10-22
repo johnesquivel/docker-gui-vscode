@@ -1,0 +1,12 @@
+{
+    "cSpell.enabled": true,
+    "typescript.surveys.enabled": false,
+    "terminal.integrated.automationProfile.linux": {
+        "icon": "terminal-ubuntu",
+        "path": "bash",
+        "overrideName": true
+    },
+    "cSpell.words": [
+        "matplot"
+    ],
+}

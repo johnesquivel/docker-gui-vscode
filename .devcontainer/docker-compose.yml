@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  vscode-docker:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    user: "docker"
+    environment:
+      DISPLAY: "$DISPLAY"
+    volumes:
+        # Import the display to show the matlab plot on the host display
+        - "/tmp/.X11-unix:/tmp/.X11-unix:rw"
+        # Helpful aliases
+        - "./bash_aliases:/home/docker/.bash_aliases:rw"
+        # Our source code to run
+        - "../:/home/docker/src"
+    command: /bin/sh -c "while sleep 1000; do :; done"
+
